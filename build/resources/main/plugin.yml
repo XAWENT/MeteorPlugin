@@ -1,0 +1,13 @@
+name: TestIdeaPlugin
+version: '1.0-SNAPSHOT'
+main: net.xawent.testIdeaPlugin.TestIdeaPlugin
+api-version: '1.21'
+commands:
+  meteor:
+    description: Spawns a meteor
+    usage: /meteor
+    permission: meteor.use
+  specialmeteor:
+    description: Spawns a special meteor
+    usage: /specialmeteor
+    permission: meteor.use
